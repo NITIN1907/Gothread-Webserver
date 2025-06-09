@@ -1,4 +1,4 @@
-# Go Thread-Safe User API
+# Go Thread-Safe User API(Web-Server)
 
 A minimal RESTful API built in Go to manage user data using an in-memory cache. The server is designed with concurrency in mind, utilizing `sync.RWMutex` to ensure thread-safe operations when accessing or modifying the shared `userCache`.
 
